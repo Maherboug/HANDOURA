@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>HANDOURA</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow border-top border-5 border-primary sticky-top p-0">
+        <a href="index.html" class="navbar-brand  d-flex align-items-center px-4 px-lg-5">
+            <h2 class="mb-2 text-white"></h2>
+            <img src="./img/HAND-removebg-preview.png" alt="Logo" class="img-fluid" style="max-height: 75px; margin-right: 10px;">
+
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+    <div class="navbar-nav ms-auto p-4 p-lg-0">
+        <a href="index.html" class="nav-item nav-link active">Home</a>
+        <a href="about.html" class="nav-item nav-link">About</a>
+        <a href="service.html" class="nav-item nav-link">Services</a>
+
+        <div class="nav-item dropdown">
+            <a href="product.html" class="nav-link dropdown-toggle " id="productDropdown" role="button"
+               data-bs-toggle="dropdown" aria-expanded="false" onclick="window.location.href='product.html'">
+                Products
+            </a>
+            <ul class="dropdown-menu fade-up m-0" aria-labelledby="productDropdown">
+                <li><a href="last.html" class="dropdown-item">Last</a></li>
+                <li><a href="health.html" class="dropdown-item">Healthcare</a></li>
+                <li><a href="agriculture.html" class="dropdown-item">Agriculture</a></li>
+                <li><a href="dangerous.html" class="dropdown-item">Dangerous Goods</a></li>
+                <li><a href="cosmetics.html" class="dropdown-item">Cosmetics</a></li>
+                <li><a href="textile.html" class="dropdown-item">Textile</a></li>
+                <li><a href="sustainble.html" class="dropdown-item">Sustainable Goods</a></li>
+                <li><a href="food.html" class="dropdown-item">Food</a></li>
+                <li><a href="energy.html" class="dropdown-item">Energy Goods</a></li>
+            </ul>
+        </div>
+
+        <a href="order.html" class="nav-item nav-link">Order Now</a>
+        <a href="contact.html" class="nav-item nav-link">Contact</a>
+    </div>
+
+    <!-- WhatsApp Contact on large screens -->
+    <a href="https://wa.me/41782456508" target="_blank" class="text-decoration-none d-none d-lg-block ms-lg-4">
+        <h5 class="m-0">
+            <i class="bi bi-whatsapp me-2"></i>+41 78 245 65 08
+        </h5>
+    </a>
+</div>
+
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <!-- Carousel Section -->
+<div class="container-fluid p-0 pb-5">
+    <div class="owl-carousel header-carousel position-relative mb-5">
+
+        <!-- Carousel Item 1 -->
+        <div class="owl-carousel-item position-relative" style="height: 80vh; min-height: 400px;">
+            <img class="w-100 h-100 object-fit-cover" src="img/carousel-1.jpg" alt="">
+            <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(6, 3, 21, .5);">
+                <div class="container">
+                    <div class="row justify-content-start">
+                        <div class="col-10 col-lg-8">
+                            <h5 class="text-white text-uppercase mb-3 animated slideInDown">Welcome to HANDOURA Import Export</h5>
+                            <h1 class="display-3 text-white animated slideInDown mb-4">Trusted <span class="text-primary">Today</span>, Ready for Tomorrow</h1>
+                            <p class="fs-5 fw-medium text-white mb-4 pb-2">Your trusted gateway to global trade. We connect you to premium products and international markets with efficiency, reliability, and excellence.</p>
+                            <a href="product.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Shop Now</a>
+                            <a href="order.html" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Carousel Item 2 -->
+        <div class="owl-carousel-item position-relative" style="height: 80vh; min-height: 400px;">
+            <img class="w-100 h-100 object-fit-cover" src="img/giphy.gif" alt="">
+            <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(6, 3, 21, .5);">
+                <div class="container">
+                    <div class="row justify-content-start">
+                        <div class="col-10 col-lg-8">
+                            <h5 class="text-white text-uppercase mb-3 animated slideInDown">Welcome to HANDOURA Import Export</h5>
+                            <h1 class="display-3 text-white animated slideInDown mb-4">Trusted <span class="text-primary">Today</span>, Ready for Tomorrow</h1>
+                            <p class="fs-5 fw-medium text-white mb-4 pb-2">Your trusted gateway to global trade. We connect you to premium products and international markets with efficiency, reliability, and excellence.</p>
+                            <a href="#" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Shop Now</a>
+                            <a href="#" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Free Quote</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+   
+
+
+    <!-- Carousel End -->
+
+
+   <!-- About Start -->
+    <div class="container-fluid overflow-hidden py-5 px-lg-0">
+        <div class="container about py-5 px-lg-0">
+            <div class="row g-5 mx-lg-0">
+                <div class="col-lg-6 ps-lg-0 wow fadeInLeft" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/Import.jpg" style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 about-text wow fadeInUp" data-wow-delay="0.3s">
+                    <h6 class="text-secondary text-uppercase mb-3">About Us</h6>
+                    <h1 class="mb-5">HANDOURA Import Export </h1>
+                    <p class="mb-5">We are a dynamic player in global trade, specializing in the import, export, and distribution of fast-moving consumer goods (FMCG). We also provide comprehensive logistics solutions — including freight forwarding, transportation, and specialized services for diplomatic corps and international trade missions. With a commitment to excellence, we continuously evolve to keep pace with the ever-changing global market and rising demands in logistics and transportation. Our philosophy is rooted in delivering consistent quality, reliability, and customer satisfaction. At Handoura, every service is tailored to meet client needs — anytime, anywhere. We aim to make trade seamless, offering end-to-end support so our customers can focus on growing their business while we take care of the logistics. With Handoura, you can trust that your goods are in capable hands — from origin to destination.</p>
+                    <div class="row g-4 mb-5">
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
+                            <i class="fa fa-globe fa-3x text-primary mb-3"></i>
+                            <h5>Global Coverage</h5>
+                            <p class="m-0">We serve clients across continents, connecting you to premium markets with dependable international logistics.</p>
+                        </div>
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.7s">
+                            <i class="fa fa-shipping-fast fa-3x text-primary mb-3"></i>
+                            <h5>On Time Delivery</h5>
+                            <p class="m-0">Timeliness is our promise. We  ensure your goods arrive safely and as scheduled — without delay.</p>
+                        </div>
+                    </div>
+                    <a href="" class="btn btn-primary py-3 px-5">Explore More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Fact Start -->
+    <div class="container-xxl py-5">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="text-secondary text-uppercase mb-3">Some Facts</h6>
+                    <h1 class="mb-5">#1 Choice for Managing All Your Global Shipments</h1>
+                <p class="mb-4">At Handoura Import Export, we go beyond borders—ensuring your goods are shipped securely, efficiently, and on time across the globe. With deep expertise in international logistics and trade, we simplify the complex and deliver excellence every step of the way.</p>
+                    <div class="d-flex align-items-center">
+                        <i class="fa fa-headphones fa-2x flex-shrink-0 bg-primary p-3 text-white"></i>
+                        <div class="ps-4">
+                            <h6>Call for any query!</h6>
+                            <h3 class="text-primary m-0">+41782456508</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row g-4 align-items-center">
+                        <div class="col-sm-6">
+                            <div class="bg-primary p-4 mb-4 wow fadeIn" data-wow-delay="0.3s">
+                                <i class="fa fa-users fa-2x text-white mb-3"></i>
+                                <h2 class="text-white mb-2" data-toggle="counter-up">1234</h2>
+                                <p class="text-white mb-0">Happy Clients</p>
+                            </div>
+                            <div class="bg-secondary p-4 wow fadeIn" data-wow-delay="0.5s">
+                                <i class="fa fa-ship fa-2x text-white mb-3"></i>
+                                <h2 class="text-white mb-2" data-toggle="counter-up">1234</h2>
+                                <p class="text-white mb-0">Complete Shipments</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="bg-success p-4 mb-4 wow fadeIn" data-wow-delay="0.3s">
+                                <i class="fa fa-star fa-2x text-white mb-3"></i>
+                                <h2 class="text-white mb-2" data-toggle="counter-up">1234</h2>
+                                <p class="text-white mb-0">Customer Reviews</p>
+                            </div>
+                            <div class="bg-dark p-4 wow fadeIn" data-wow-delay="0.9s">
+                                <i class="fa fa-globe fa-2x text-white mb-3"></i>
+                                <h2 class="text-white mb-2" data-toggle="counter-up">42</h2>
+                                <p class="text-white mb-0">Countries Covered</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fact End -->
+
+
+
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container py-5">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="text-secondary text-uppercase">Our Services</h6>
+                <h1 class="mb-5">Explore Our Services</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/sup.jpg" alt="">
+                        </div>
+                        <h4 class="mb-3"> Import & Export Management</h4>
+                        <p>End-to-end handling of international trade operations, including customs clearance, compliance, and documentation.</p>
+                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/global.webp" alt="">
+                        </div>
+                        <h4 class="mb-3">Global Freight Forwarding</h4>
+                        <p>Efficient sea, air, and land freight solutions for moving goods across continents with real-time tracking.</p>
+                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/service-6.jpg" alt="">
+                        </div>
+                        <h4 class="mb-3">Warehousing & Distribution</h4>
+                        <p>Secure storage and nationwide distribution services with inventory management and last-mile delivery.</p>
+                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/spec.png" alt="">
+                        </div>
+                        <h4 class="mb-3">Specialized Services</h4>
+                        <p>Dedicated services for diplomatic missions and sensitive shipments, including restricted or perishable goods.</p>
+                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/service-5.jpg" alt="">
+                        </div>
+                        <h4 class="mb-3">Customs Clearance</h4>
+                        <p>Expert support for fast and accurate customs documentation and clearance, reducing delays and penalties.</p>
+                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/trade.jpeg" alt="">
+                        </div>
+                        <h4 class="mb-3">Trade Consulting & Compliance</h4>
+                        <p>Guidance on international regulations, tariff codes, and import-export licensing to ensure legal and efficient trade.</p>
+                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+    <!-- Feature Start -->
+    <div class="container-fluid overflow-hidden py-5 px-lg-0">
+        <div class="container feature py-5 px-lg-0">
+            <div class="row g-5 mx-lg-0">
+                <div class="col-lg-6 feature-text wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="text-secondary text-uppercase mb-3">Our Features</h6>
+                    <h1 class="mb-5">Your Trusted Import Export Company </h1>
+                    <div class="d-flex mb-5 wow fadeInUp" data-wow-delay="0.3s">
+                        <i class="fa fa-globe text-primary fa-3x flex-shrink-0"></i>
+                        <div class="ms-4">
+                            <h5>Worldwide Service</h5>
+                            <p class="mb-0">We connect businesses across continents with smooth import/export solutions tailored to your market needs.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-5 wow fadeIn" data-wow-delay="0.5s">
+                        <i class="fa fa-shipping-fast text-primary fa-3x flex-shrink-0"></i>
+                        <div class="ms-4">
+                            <h5>On Time Delivery</h5>
+                            <p class="mb-0">Precision and punctuality are at the heart of our operations — your shipments always arrive on schedule.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-0 wow fadeInUp" data-wow-delay="0.7s">
+                        <i class="fa fa-headphones text-primary fa-3x flex-shrink-0"></i>
+                        <div class="ms-4">
+                            <h5>24/7 Telephone Support</h5>
+                            <p class="mb-0">Our expert logistics team is available around the clock to ensure smooth, uninterrupted service at every step.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 pe-lg-0 wow fadeInRight" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/impor.jpeg" style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature End -->
+
+
+    <!-- 
+    <div class="container-xxl py-5">
+        <div class="container py-5">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="text-secondary text-uppercase">Pricing Plan</h6>
+                <h1 class="mb-5">Perfect Pricing Plan</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="price-item">
+                        <div class="border-bottom p-4 mb-4">
+                            <h5 class="text-primary mb-1">Basic Plan</h5>
+                            <h1 class="display-5 mb-0">
+                                <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>49.00<small
+                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Month</small>
+                            </h1>
+                        </div>
+                        <div class="p-4 pt-0">
+                            <p><i class="fa fa-check text-success me-3"></i>HTML5 & CSS3</p>
+                            <p><i class="fa fa-check text-success me-3"></i>Bootstrap v5</p>
+                            <p><i class="fa fa-check text-success me-3"></i>FontAwesome Icons</p>
+                            <p><i class="fa fa-check text-success me-3"></i>Responsive Layout</p>
+                            <p><i class="fa fa-check text-success me-3"></i>Cross-browser Support</p>
+                            <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span >Order Now</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="price-item">
+                        <div class="border-bottom p-4 mb-4">
+                            <h5 class="text-primary mb-1">Standard Plan</h5>
+                            <h1 class="display-5 mb-0">
+                                <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>99.00<small
+                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Month</small>
+                            </h1>
+                        </div>
+                        <div class="p-4 pt-0">
+                            <p><i class="fa fa-check text-success me-3"></i>HTML5 & CSS3</p>
+                            <p><i class="fa fa-check text-success me-3"></i>Bootstrap v5</p>
+                            <p><i class="fa fa-check text-success me-3"></i>FontAwesome Icons</p>
+                            <p><i class="fa fa-check text-success me-3"></i>Responsive Layout</p>
+                            <p><i class="fa fa-check text-success me-3"></i>Cross-browser Support</p>
+                            <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span >Order Now</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="price-item">
+                        <div class="border-bottom p-4 mb-4">
+                            <h5 class="text-primary mb-1">Advanced Plan</h5>
+                            <h1 class="display-5 mb-0">
+                                <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>149.00<small
+                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Month</small>
+                            </h1>
+                        </div>
+                        <div class="p-4 pt-0">
+                            <p><i class="fa fa-check text-success me-3"></i>HTML5 & CSS3</p>
+                            <p><i class="fa fa-check text-success me-3"></i>Bootstrap v5</p>
+                            <p><i class="fa fa-check text-success me-3"></i>FontAwesome Icons</p>
+                            <p><i class="fa fa-check text-success me-3"></i>Responsive Layout</p>
+                            <p><i class="fa fa-check text-success me-3"></i>Cross-browser Support</p>
+                            <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span >Order Now</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ -->
+
+
+    <!-- Quote Start -->
+    <div class="container-xxl py-5">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="text-secondary text-uppercase mb-3">Get A Quote</h6>
+                    <h1 class="mb-5">Request A Free Qoute!</h1>
+                    <p class="mb-5">We provide fast, reliable, and customized shipping solutions tailored to your business needs. Whether it’s import, export, or distribution, our expert team is ready to assist you with transparent pricing and timely delivery. Get your free, no-obligation quote today and experience hassle-free logistics with Handoura.</p>
+                    <div class="d-flex align-items-center">
+                        <i class="fa fa-headphones fa-2x flex-shrink-0 bg-primary p-3 text-white"></i>
+                        <div class="ps-4">
+                            <h6>Call for any query!</h6>
+                            <h3 class="text-primary m-0">+41782456508</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="bg-light text-center p-5 wow fadeIn" data-wow-delay="0.5s">
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control border-0" placeholder="Your Name" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="email" class="form-control border-0" placeholder="Your Email" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control border-0" placeholder="Your Mobile" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <select class="form-select border-0" style="height: 55px;">
+                                        <option selected>Select A Freight</option>
+                                        <option value="1">Import & Export Management</option>
+                                        <option value="2">Global Freight Forwarding</option>
+                                        <option value="3">Warehousing & Distribution</option>
+                                        <option value="3">Specialized Services</option>
+                                        <option value="3">Customs Clearance</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="form-control border-0" placeholder="Special Note"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary w-100 py-3" type="submit">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Quote End -->
+
+
+    <!-- 
+    <div class="container-xxl py-5">
+        <div class="container py-5">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="text-secondary text-uppercase">Our Team</h6>
+                <h1 class="mb-5">Expert Team Members</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/team-1.jpg" alt="">
+                        </div>
+                        <h5 class="mb-0">Full Name</h5>
+                        <p>Designation</p>
+                        <div class="btn-slide mt-1">
+                            <i class="fa fa-share"></i>
+                            <span>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/team-2.jpg" alt="">
+                        </div>
+                        <h5 class="mb-0">Full Name</h5>
+                        <p>Designation</p>
+                        <div class="btn-slide mt-1">
+                            <i class="fa fa-share"></i>
+                            <span>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/team-3.jpg" alt="">
+                        </div>
+                        <h5 class="mb-0">Full Name</h5>
+                        <p>Designation</p>
+                        <div class="btn-slide mt-1">
+                            <i class="fa fa-share"></i>
+                            <span>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.9s">
+                    <div class="team-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/team-4.jpg" alt="">
+                        </div>
+                        <h5 class="mb-0">Full Name</h5>
+                        <p>Designation</p>
+                        <div class="btn-slide mt-1">
+                            <i class="fa fa-share"></i>
+                            <span>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   -->
+
+ <!-- Testimonial Start -->
+    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="text-center">
+                <h6 class="text-secondary text-uppercase">Testimonial</h6>
+                <h1 class="mb-0">Our Clients Say!</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="testimonial-item p-4 my-5">
+                    <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
+                    <div class="d-flex align-items-end mb-4">
+                        <img class="img-fluid flex-shrink-0" src="img/testimonial-1.jpg" style="width: 80px; height: 80px;">
+                        <div class="ms-4">
+                            <h5 class="mb-1">Lora Ben Youssef</h5>
+                            <p class="m-0">CEO OraNExt</p>
+                        </div>
+                    </div>
+            <p class="mb-0">Working with Handoura has been a game changer. Their logistics are always on time and customs clearance is handled with professionalism. Highly recommended for any serious exporter.</p>
+                </div>
+                <div class="testimonial-item p-4 my-5">
+                    <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
+                    <div class="d-flex align-items-end mb-4">
+                        <img class="img-fluid flex-shrink-0" src="img/testimonial-2.jpg" style="width: 80px; height: 80px;">
+                        <div class="ms-4">
+                            <h5 class="mb-1">Fahed El Arbi</h5>
+                            <p class="m-0">Import Coordinator, MedCosmetics</p>
+                        </div>
+                    </div>
+            <p class="mb-0">The team at Handoura is very responsive and efficient. They helped us grow our import operations in North Africa with zero delays and full transparency.</p>
+                </div>
+                <div class="testimonial-item p-4 my-5">
+                    <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
+                    <div class="d-flex align-items-end mb-4">
+                        <img class="img-fluid flex-shrink-0" src="img/testimonial-3.jpg" style="width: 80px; height: 80px;">
+                        <div class="ms-4">
+                            <h5 class="mb-1">Jean-Marc Lefevre</h5>
+                            <p class="m-0">Export Manager, AgriFrance</p>
+                        </div>
+                    </div>
+            <p class="mb-0">Handoura's team is incredibly professional. From document processing to last-mile delivery, they consistently exceed our expectations in international shipping.</p>
+                </div>
+                <div class="testimonial-item p-4 my-5">
+                    <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
+                    <div class="d-flex align-items-end mb-4">
+                        <img class="img-fluid flex-shrink-0" src="img/testimonial-4.jpg" style="width: 80px; height: 80px;">
+                       <div class="ms-4">
+                    <h5 class="mb-1">Yara Al-Karim</h5>
+                    <p class="m-0">Owner, Al-Karim Textiles</p>
+                </div>
+                    </div>
+            <p class="mb-0">I’ve been exporting through Handoura for over 3 years. Their dedication and professionalism have helped my business reach new markets smoothly and securely.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 wow fadeIn" data-wow-delay="0.1s" style="margin-top: 6rem;">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Address</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>18 Riedstrasse, Schattdorf, 6467</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+41782456508</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>Handoura.ch@gmail.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Products</h4>
+                    <a class="btn btn-link" href="">Healthcare</a>
+                    <a class="btn btn-link" href="">Agriculture</a>
+                    <a class="btn btn-link" href="">Used Products</a>
+                    <a class="btn btn-link" href="">Agro-Alimentaire</a>
+                    <a class="btn btn-link" href="">Industry solutions</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Quick Links</h4>
+                    <a class="btn btn-link" href="">About Us</a>
+                    <a class="btn btn-link" href="">Contact Us</a>
+                    <a class="btn btn-link" href="">Our Services</a>
+                    <a class="btn btn-link" href="">Terms & Condition</a>
+                    <a class="btn btn-link" href="">Support</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Newsletter</h4>
+<p> Join our newsletter for exclusive offers and global market trends.</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">HANDOURA 2025</a>, All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const dropdown = document.querySelector('.nav-item.dropdown');
+        dropdown.addEventListener('mouseenter', function () {
+            dropdown.classList.add('show');
+            dropdown.querySelector('.dropdown-menu').classList.add('show');
+        });
+        dropdown.addEventListener('mouseleave', function () {
+            dropdown.classList.remove('show');
+            dropdown.querySelector('.dropdown-menu').classList.remove('show');
+        });
+    });
+</script>
+
+</body>
+
+</html>

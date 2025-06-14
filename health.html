@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>HANDOURA</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+<style>
+    .product-item:hover .product-overlay {
+        opacity: 1;
+    }
+    .product-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+</style>
+
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+  <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow border-top border-5 border-primary sticky-top p-0">
+        <a href="index.html" class="navbar-brand  d-flex align-items-center px-4 px-lg-5">
+            <h2 class="mb-2 text-white"></h2>
+            <img src="./img/HAND-removebg-preview.png" alt="Logo" class="img-fluid" style="max-height: 75px; margin-right: 10px;">
+
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+    <div class="navbar-nav ms-auto p-4 p-lg-0">
+        <a href="index.html" class="nav-item nav-link">Home</a>
+        <a href="about.html" class="nav-item nav-link">About</a>
+        <a href="service.html" class="nav-item nav-link">Services</a>
+
+        <div class="nav-item dropdown">
+            <a href="product.html" class="nav-link dropdown-toggle active" id="productDropdown" role="button"
+               data-bs-toggle="dropdown" aria-expanded="false" onclick="window.location.href='product.html'">
+                Products
+            </a>
+            <ul class="dropdown-menu fade-up m-0" aria-labelledby="productDropdown">
+                <li><a href="last.html" class="dropdown-item">Last</a></li>
+                <li><a href="health.html" class="dropdown-item">Healthcare</a></li>
+                <li><a href="agriculture.html" class="dropdown-item">Agriculture</a></li>
+                <li><a href="dangerous.html" class="dropdown-item">Dangerous Goods</a></li>
+                <li><a href="cosmetics.html" class="dropdown-item">Cosmetics</a></li>
+                <li><a href="textile.html" class="dropdown-item">Textile</a></li>
+                <li><a href="sustainble.html" class="dropdown-item">Sustainable Goods</a></li>
+                <li><a href="food.html" class="dropdown-item">Food</a></li>
+                <li><a href="energy.html" class="dropdown-item">Energy Goods</a></li>
+            </ul>
+        </div>
+
+        <a href="order.html" class="nav-item nav-link">Order Now</a>
+        <a href="contact.html" class="nav-item nav-link">Contact</a>
+    </div>
+
+    <!-- WhatsApp Contact on large screens -->
+    <a href="https://wa.me/41782456508" target="_blank" class="text-decoration-none d-none d-lg-block ms-lg-4">
+        <h5 class="m-0">
+            <i class="bi bi-whatsapp me-2"></i>+41 78 245 65 08
+        </h5>
+    </a>
+</div>
+
+    </nav>
+    <!-- Navbar End -->
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header py-5" style="margin-bottom: 6rem;">
+        <div class="container py-5">
+            <h1 class="display-3 text-white mb-3 animated slideInDown">Products</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Products</a></li>
+                                        <li class="breadcrumb-item text-white active" aria-current="page">Healthcare</li>
+
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+
+
+
+ <!-- Product Section -->
+<div class="container-xxl py-5">
+    <div class="container py-5">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h6 class="text-secondary text-uppercase">Our Products</h6>
+            <h1 class="mb-5">Healthcare Products</h1>
+        </div>
+        <div class="row g-4">
+
+            <!-- Product 1 -->
+            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
+                <div class="product-item border rounded overflow-hidden position-relative">
+                    <div class="product-image position-relative overflow-hidden">
+                        <img src="img/product/68-BANSI-RR-1024x1024.webp" class="img-fluid w-100" alt="First Aid Kit">
+                        <div class="product-overlay d-flex align-items-center justify-content-center">
+                            <a href="#" class="btn btn-outline-light m-1" data-bs-toggle="modal" data-bs-target="#productModal7">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <h5 class="text-primary">First Aid Kit</h5>
+                        <p class="mb-2">Compact kit with all essential supplies for emergencies.</p>
+                        <a class="btn btn-primary w-100" href="order.html">Order Now</a>
+                    </div>
+                </div>
+                    </div>
+
+            <!-- Product 2 -->
+            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="product-item border rounded overflow-hidden position-relative">
+                    <div class="product-image position-relative overflow-hidden">
+                        <img src="img/product/cooling-gel-02.webp" class="img-fluid w-100" alt="Cooling Gel">
+                        <div class="product-overlay d-flex align-items-center justify-content-center">
+                            <a href="#" class="btn btn-outline-light m-1" data-bs-toggle="modal" data-bs-target="#productModal2">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <h5 class="text-primary">Cooling Gel</h5>
+                        <p class="mb-2">Instant skin relief and cooling effect for burns and injuries.</p>
+                        <a class="btn btn-primary w-100" href="order.html">Order Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="product-item border rounded overflow-hidden position-relative">
+                    <div class="product-image position-relative overflow-hidden">
+                        <img src="img/product/mask.jpg" class="img-fluid w-100" alt="Face Mask">
+                        <div class="product-overlay d-flex align-items-center justify-content-center">
+                            <a href="#" class="btn btn-outline-light m-1" data-bs-toggle="modal" data-bs-target="#productModal3">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <h5 class="text-primary">Face Mask</h5>
+                        <p class="mb-2">Protective face masks for medical and public use.</p>
+                        <a class="btn btn-primary w-100" href="order.html">Order Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 4 -->
+    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+        <div class="product-item border rounded overflow-hidden position-relative">
+            <div class="product-image position-relative overflow-hidden">
+                <img src="img/product/therm.jpg" class="img-fluid w-100" alt="Digital Thermometer">
+                <div class="product-overlay d-flex align-items-center justify-content-center">
+                    <a href="#" class="btn btn-outline-light m-1" data-bs-toggle="modal" data-bs-target="#productModal4">
+                        <i class="fa fa-eye"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="p-4">
+                <h5 class="text-primary">Digital Thermometer</h5>
+                <p class="mb-2">Fast and accurate temperature readings in seconds.</p>
+                <a class="btn btn-primary w-100" href="order.html">Order Now</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Product 5 -->
+    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+        <div class="product-item border rounded overflow-hidden position-relative">
+            <div class="product-image position-relative overflow-hidden">
+                <img src="img/product/blood.webp" class="img-fluid w-100" alt="Blood Pressure Monitor">
+                <div class="product-overlay d-flex align-items-center justify-content-center">
+                    <a href="#" class="btn btn-outline-light m-1" data-bs-toggle="modal" data-bs-target="#productModal5">
+                        <i class="fa fa-eye"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="p-4">
+                <h5 class="text-primary">Blood Pressure Monitor</h5>
+                <p class="mb-2">Track systolic and diastolic pressure at home easily.</p>
+                <a class="btn btn-primary w-100" href="order.html">Order Now</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Product 6 -->
+    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+        <div class="product-item border rounded overflow-hidden position-relative">
+            <div class="product-image position-relative overflow-hidden">
+                <img src="img/product/pulse.jpg" class="img-fluid w-100" alt="Pulse Oximeter">
+                <div class="product-overlay d-flex align-items-center justify-content-center">
+                    <a href="#" class="btn btn-outline-light m-1" data-bs-toggle="modal" data-bs-target="#productModal6">
+                        <i class="fa fa-eye"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="p-4">
+                <h5 class="text-primary">Pulse Oximeter</h5>
+                <p class="mb-2">Non-invasive device for measuring blood oxygen levels.</p>
+                <a class="btn btn-primary w-100" href="order.html">Order Now</a>
+            </div>
+        </div>
+    </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- Modals Section -->
+
+<!-- Product 1 Modal -->
+<div class="modal fade" id="productModal7" tabindex="-1" aria-labelledby="productModalLabel7" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">First Aid Kit - Overview</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body row">
+        <div class="col-md-6">
+          <img src="img/product/68-BANSI-RR-1024x1024.webp" class="img-fluid rounded" alt="First Aid Kit">
+        </div>
+        <div class="col-md-6">
+          <h4>First Aid Kit</h4>
+          <ul>
+            <li>Includes: Bandages, gauze, scissors, gloves, antiseptic</li>
+            <li>Use: Home, travel, office</li>
+            <li>Material: Durable case</li>
+            <li>Compact & portable</li>
+            <li>Easy to restock</li>
+          </ul>
+          <a class="btn btn-primary mt-3 w-100" href="order.html">Order Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Product 2 Modal -->
+<div class="modal fade" id="productModal2" tabindex="-1" aria-labelledby="productModalLabel2" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cooling Gel - Product Overview</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body row">
+        <div class="col-md-6">
+          <img src="img/product/cooling-gel-02.webp" class="img-fluid rounded" alt="Cooling Gel">
+        </div>
+        <div class="col-md-6">
+          <h4>Cooling Gel</h4>
+          <ul>
+            <li>Use: Burn relief and skin cooling</li>
+            <li>Type: Topical Gel</li>
+            <li>Volume: 100 ml</li>
+            <li>Ingredients: Aloe Vera, Menthol</li>
+            <li>Shelf Life: 2 years</li>
+            <li>Application: External use only</li>
+          </ul>
+          <a class="btn btn-primary mt-3 w-100" href="order.html">Order Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Product 3 Modal -->
+<div class="modal fade" id="productModal3" tabindex="-1" aria-labelledby="productModalLabel3" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Face Mask - Product Overview</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body row">
+        <div class="col-md-6">
+          <img src="img/product/mask.jpg" class="img-fluid rounded" alt="Face Mask">
+        </div>
+        <div class="col-md-6">
+          <h4>Face Mask</h4>
+          <ul>
+            <li>Type: 3-Ply Disposable Mask</li>
+            <li>Material: Non-woven fabric</li>
+            <li>Protection: BFE > 95%</li>
+            <li>Size: Adult</li>
+            <li>Color: Blue</li>
+            <li>Certification: CE, FDA</li>
+          </ul>
+          <a class="btn btn-primary mt-3 w-100" href="order.html">Order Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="productModal4" tabindex="-1" aria-labelledby="productModalLabel4" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Digital Thermometer - Overview</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body row">
+        <div class="col-md-6">
+          <img src="img/product/therm.jpg" class="img-fluid rounded" alt="Digital Thermometer">
+        </div>
+        <div class="col-md-6">
+          <h4>Digital Thermometer</h4>
+          <ul>
+            <li>Fast reading: < 10 seconds</li>
+            <li>Accuracy: ±0.1°C</li>
+            <li>Waterproof design</li>
+            <li>LCD Display</li>
+            <li>Battery: Included</li>
+            <li>For oral, rectal, or underarm use</li>
+          </ul>
+          <a class="btn btn-primary mt-3 w-100" href="order.html">Order Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Product 5 Modal -->
+<div class="modal fade" id="productModal5" tabindex="-1" aria-labelledby="productModalLabel5" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Blood Pressure Monitor - Overview</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body row">
+        <div class="col-md-6">
+          <img src="img/product/blood.webp" class="img-fluid rounded" alt="Blood Pressure Monitor">
+        </div>
+        <div class="col-md-6">
+          <h4>Blood Pressure Monitor</h4>
+          <ul>
+            <li>Type: Digital Automatic</li>
+            <li>Display: Large LED screen</li>
+            <li>Memory: 120 readings</li>
+            <li>Power: Battery or USB</li>
+            <li>Automatic inflation and deflation</li>
+          </ul>
+          <a class="btn btn-primary mt-3 w-100" href="order.html">Order Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Product 6 Modal -->
+<div class="modal fade" id="productModal6" tabindex="-1" aria-labelledby="productModalLabel6" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Pulse Oximeter - Overview</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body row">
+        <div class="col-md-6">
+          <img src="img/product/pulse.jpg" class="img-fluid rounded" alt="Pulse Oximeter">
+        </div>
+        <div class="col-md-6">
+          <h4>Pulse Oximeter</h4>
+          <ul>
+            <li>Measures SpO2 and Pulse Rate</li>
+            <li>OLED dual color display</li>
+            <li>Auto power-off</li>
+            <li>Accuracy: ±2%</li>
+            <li>Compact & portable</li>
+          </ul>
+          <a class="btn btn-primary mt-3 w-100" href="order.html">Order Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 wow fadeIn" data-wow-delay="0.1s" style="margin-top: 6rem;">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Address</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>18 Riedstrasse, Schattdorf, 6467</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+41782456508</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>Handoura.ch@gmail.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Products</h4>
+                    <a class="btn btn-link" href="">Healthcare</a>
+                    <a class="btn btn-link" href="">Agriculture</a>
+                    <a class="btn btn-link" href="">Used Products</a>
+                    <a class="btn btn-link" href="">Agro-Alimentaire</a>
+                    <a class="btn btn-link" href="">Industry solutions</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Quick Links</h4>
+                    <a class="btn btn-link" href="">About Us</a>
+                    <a class="btn btn-link" href="">Contact Us</a>
+                    <a class="btn btn-link" href="">Our Services</a>
+                    <a class="btn btn-link" href="">Terms & Condition</a>
+                    <a class="btn btn-link" href="">Support</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Newsletter</h4>
+<p> Join our newsletter for exclusive offers and global market trends.</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">HANDOURA 2025</a>, All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
